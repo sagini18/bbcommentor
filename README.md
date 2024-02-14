@@ -16,19 +16,19 @@ After installing the package, you can use the following commands to learn about 
 ```bash
 # who
 Get to know about an animal.
-cli_animal who <animal_name>
+animal who <animal_name>
 
 # Example:
-cli_animal who lion
+animal who lion
 # Output:
 # I am a lion
 
 # food
 Find out what a specific animal likes to eat.
-cli_animal food -a <animal_name> -f <food_name>
+animal food -a <animal_name> -f <food_name>
 
 # Example:
-cli_animal food -a panda -f bamboo
+animal food -a panda -f bamboo
 # Output:
 # panda likes to eat bamboo
 ```
