@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "cli_animal",
   "version": "1.0.0",
   "description": "Basic cli ",
   "main": "src/index.js",
@@ -10,6 +10,7 @@
   "bin": {
     "animal": "./src/index.js"
   },
+  "keywords": ["cli", "animal", "node", "javascript", "command-line"],
   "author": "",
   "license": "ISC",
   "dependencies": {
