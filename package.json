@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "animal": "./src/index.js"
+    "bbprc": "./src/index.js"
   },
   "keywords": [
     "cli",
@@ -20,6 +20,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.0.0"
+    "axios": "^1.6.7",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "open": "^10.0.3"
   }
 }
